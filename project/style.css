@@ -1,0 +1,72 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.container
+{
+    max-width: 80%;
+    padding: 36px;
+    margin : auto;
+   
+}
+
+.container h3
+{
+    text-align:center;
+}
+ 
+p{
+    font-size:17px;
+    text-align: center;
+    font-family: cursive;
+}
+h3
+{
+    font-size: 50px;
+}
+input,textarea
+{   
+    width: 80%;
+    margin: 11px 0;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+form
+{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+.btn
+{
+    background-color:darkblue;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.bg
+{
+    opacity: 0.4;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.submitMsg{ 
+    
+    font-size: 18px;
+    font-family: cursive;
+}
